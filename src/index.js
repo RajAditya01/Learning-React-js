@@ -8,3 +8,4 @@ ReactDOM.render(<h1>Hello world!</h1>, document.getElementById("root"));
 var h1=document.createElement("h1");
 h1.innerHTML="Aditya raj";
 document.getElementById("root").apendChild(h1);
+
