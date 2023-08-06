@@ -24,7 +24,17 @@ ReactDOM.render(
     document.getElementById("root")
 );
 
-// 2
+//React fragment
+ReactDOM.render(
+    <>
+        <h1 key="heading">Hello world!</h1>,
+        <h2 key="subheading">Welcome to my React course</h2>,
+        <p key="paragraph">I am Aditya Raj</p>
+    </>,
+    document.getElementById("root")
+);
+
+// 
 // var h1 = document.createElement("h1");
 // h1.innerHTML = "Aditya raj";
 // document.getElementById("root").appendChild(h1);
