@@ -172,12 +172,28 @@ import ReactDOM from "react-dom";
 
 
 //Tamplate literals
-const fname = 'Aditya';
-const lname = 'Raj';
+// const fname = 'Aditya';
+// const lname = 'Raj';
+
+// ReactDOM.render(
+//     <>
+//         <h1>{`My name is ${fname} ${lname}`}</h1>
+//     </>,
+//     document.getElementById("root")
+// );
+
+//challenge 2
+const date = '5/10/2020';
+const time = '1:06:21 PM';
 
 ReactDOM.render(
     <>
-        <h1>{`My name is ${fname} ${lname}`}</h1>
+        <h1>Hello, My name is Aditya Raj</h1>
+        <p> 
+            {`todays date is ${date} `} <br />
+            { `current time is ${time}` } <br/>
+        </p>
     </>,
-    document.getElementById("root")
+
+     document.getElementById("root")
 );
