@@ -15,20 +15,20 @@ ReactDOM.render(<h1>Hello world!</h1>, document.getElementById("root"));
 
 
 // Using ReactDOM.render to render an array of elements
-ReactDOM.render(
-    [
-        <h1 key="heading">Hello world!</h1>,
-        <h2 key="subheading">Welcome to my React course</h2>,
-        <p key="paragraph">I am Aditya Raj</p>
-    ],
-    document.getElementById("root")
-);
+// ReactDOM.render(
+//     [
+//         <h1 key="heading">Hello world!</h1>,
+//         <h2 key="subheading">Welcome to my React course</h2>,
+//         <p key="paragraph">I am Aditya Raj</p>
+//     ],
+//     document.getElementById("root")
+// );
 
 //React fragment
 ReactDOM.render(
     <>
-        <h1 key="heading">Hello world!</h1>,
-        <h2 key="subheading">Welcome to my React course</h2>,
+        <h1 key="heading">Hello world!</h1>
+        <h2 key="subheading">Welcome to my React course</h2>
         <p key="paragraph">I am Aditya Raj</p>
     </>,
     document.getElementById("root")
