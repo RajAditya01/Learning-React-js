@@ -70,13 +70,15 @@ import ReactDOM from "react-dom";
 
 
 //React  Expression
-const name = 'Aditya';
-ReactDOM.render(
-    <>
-        <h1>My name is {name} </h1>
-    </>,
-    document.getElementById("root")
-);
+
+
+// const name = 'Aditya';
+// ReactDOM.render(
+//     <>
+//         <h1>My name is {name} </h1>
+//     </>,
+//     document.getElementById("root")
+// );
 
 //1.Variable Interpolation:
 // const name = "John Doe";
@@ -153,7 +155,7 @@ ReactDOM.render(
 //     <p>
 //         {temperature > 30 ? 'It is hot' : 'It is cool'}
 //     </p>
-    
+
 // );
 
 // Output (if temperature is greater than 30):
@@ -167,3 +169,15 @@ ReactDOM.render(
 // var h1 = document.createElement("h1");
 // h1.innerHTML = "Aditya raj";
 // document.getElementById("root").appendChild(h1);
+
+
+//Tamplate literals
+const fname = 'Aditya';
+const lname = 'Raj';
+
+ReactDOM.render(
+    <>
+        <h1>{`My name is ${fname} ${lname}`}</h1>
+    </>,
+    document.getElementById("root")
+);
