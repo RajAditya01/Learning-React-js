@@ -182,18 +182,36 @@ import ReactDOM from "react-dom";
 //     document.getElementById("root")
 // );
 
-//challenge 2
-const date = new Date().toLocaleDateString();
-const time = new Date().toLocaleTimeString();
+//challenge 2 l12
+// const date = new Date().toLocaleDateString();
+// const time = new Date().toLocaleTimeString();
+
+// ReactDOM.render(
+//     <>
+//         <h1>Hello, My name is Aditya Raj</h1>
+//         <p>
+//             {`todays date is ${date} `} <br />
+//             {`current time is ${time}`} <br />
+//         </p>
+//     </>,
+
+//     document.getElementById("root")
+// );
+
+
+//L-13
+//jsx Attribute
+const name = "Aditya";
+const img1 = "https://picsum.photos/200/300";
+const img2 = "https://picsum.photos/250/300";
+const img3 = "https://picsum.photos/300/300";
 
 ReactDOM.render(
     <>
-        <h1>Hello, My name is Aditya Raj</h1>
-        <p>
-            {`todays date is ${date} `} <br />
-            {`current time is ${time}`} <br />
-        </p>
+        <h1 contentEditable={true}>My name is {name}</h1>
+        <img src={img1} alt="random Images" />
+        <img src={img2} alt="random Images" />
+        <img src={img3} alt="random Images" />
     </>,
-
     document.getElementById("root")
 );
