@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import './index.css';
 
 // ReactDOM.render('kya dikhana hai', 'kaha dikhana hai', 'call back');
 //ReactDOM.render(<h1>Hello world!</h1>, document.getElementById("root"));
@@ -223,7 +224,7 @@ const img3 = "https://picsum.photos/300/300";
 
 ReactDOM.render(
     <>
-        <h1 class="heading">My name is {name}</h1>
+        <h1 class="heading">{name} Gallery</h1>
         <img src={img1} alt="random Images" />
         <img src={img2} alt="random Images" />
         <img src={img3} alt="random Images" />
