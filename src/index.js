@@ -183,17 +183,17 @@ import ReactDOM from "react-dom";
 // );
 
 //challenge 2
-const date = '5/10/2020';
-const time = '1:06:21 PM';
+const date = new Date().toLocaleDateString();
+const time = new Date().toLocaleTimeString();
 
 ReactDOM.render(
     <>
         <h1>Hello, My name is Aditya Raj</h1>
-        <p> 
+        <p>
             {`todays date is ${date} `} <br />
-            { `current time is ${time}` } <br/>
+            {`current time is ${time}`} <br />
         </p>
     </>,
 
-     document.getElementById("root")
+    document.getElementById("root")
 );
