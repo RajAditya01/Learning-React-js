@@ -34,20 +34,40 @@ import ReactDOM from "react-dom";
 // );
 
 //challenge 1
+// ReactDOM.render(
+//     <>
+//         <h1>Aditya Netflix picks</h1>
+//         <h3>List of 5 best series</h3>
+//         <p>
+//             1. Dark <br />
+//             2. Extra curricular <br />
+//             3. My holo love <br />
+//             4. My first 2 love <br />
+//             5. Mr Robot
+//         </p>
+//     </>,
+//     document.getElementById("root")
+// );
+
+
+//using order list
+
+
 ReactDOM.render(
     <>
         <h1>Aditya Netflix picks</h1>
         <h3>List of 5 best series</h3>
-        <p>
-            1. Dark <br />
-            2. Extra curricular <br />
-            3. My holo love <br />
-            4. My first 2 love <br />
-            5. Mr Robot
-        </p>
+        <ol>
+            <li>Dark</li>
+            <li>Extra curricular</li>
+            <li>My holo love</li>
+            <li>My first 2 love</li>
+            <li>Mr Robot</li>
+        </ol>
     </>,
     document.getElementById("root")
 );
+
 
 //
 // var h1 = document.createElement("h1");
