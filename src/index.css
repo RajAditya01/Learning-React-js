@@ -9,4 +9,16 @@
   text-align: center;
   text-transform: capitalize;
   font-weight: bold;
+  text-shadow: 0px 2px 4px #ffe9c5;
+  margin: 70px 0;
+}
+
+.imgDiv{
+  display: flex;
+  justify-content: center;
+}
+
+.imgDiv img {
+  width: 250px;
+  height: 150px;
 }
