@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import './index.css';
+// import './index.css';
 
 // ReactDOM.render('kya dikhana hai', 'kaha dikhana hai', 'call back');
 //ReactDOM.render(<h1>Hello world!</h1>, document.getElementById("root"));
@@ -248,27 +248,46 @@ import './index.css';
 //good night if 7pm till midnight
 // Apply css in it then dynamically change the color of greeting part only using inline css style.Ex.green , orange, black etc...
 
-let date = new Date();
-date=date.getHours();
-let gretting='';
+// let date = new Date();
+// date=date.getHours();
+// let gretting='';
 
-const cssStyle= {};
+// const cssStyle= {};
 
-if(date >= 1 && date < 12){
-    gretting='Good Morning';
-    cssStyle.color="green";
-}else if(date >=12 && date <19){
-    gretting='Good Afternoon';
-    cssStyle.color="Orange";
-}else{
-    gretting='Good Night';
-    cssStyle.color="Black";
-}
+// if(date >= 1 && date < 12){
+//     gretting='Good Morning';
+//     cssStyle.color="green";
+// }else if(date >=12 && date <19){
+//     gretting='Good Afternoon';
+//     cssStyle.color="Orange";
+// }else{
+//     gretting='Good Night';
+//     cssStyle.color="Black";
+// }
 
-ReactDOM.render(
-    <> <div>
-    <h1>Hello sir, <span style={cssStyle}>{gretting}</span></h1>
-    </div>
-    </>,
-    document.getElementById("root")
+// ReactDOM.render(
+//     <> <div>
+//     <h1>Hello sir, <span style={cssStyle}>{gretting}</span></h1>
+//     </div>
+//     </>,
+//     document.getElementById("root")
+// );
+
+//l-18
+// components
+// Assuming you have already included React and ReactDOM libraries
+
+const element = (
+    <>
+        <h1>My Name is Aditya</h1>
+        <p>This is my world</p>
+        <ol>
+            <li>Aditya</li>
+            <li>Raj</li>
+            <li>Punit</li>
+            <li>Deepak</li>
+        </ol>
+    </>
 );
+
+ReactDOM.render(element, document.getElementById("root"));
