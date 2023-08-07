@@ -275,15 +275,10 @@ import ReactDOM from "react-dom";
 
 //l-18
 // components
-import Heading from "./Heading";
-import Para from "./Para";
-import Order from "./Order";
-const element = (
+import App from "./App";
+ReactDOM.render(
     <>
-        <Heading />
-        <Para />
-        <Order />
-    </>
+    <App />
+    </>,
+    document.getElementById("root")
 );
-
-ReactDOM.render(element, document.getElementById("root"));
