@@ -241,8 +241,34 @@ import './index.css';
 // );
 
 //challenge 3
+//l-17
 
 //show a heading that say hello sir, Good Morning, if time is between 1 to 11 am.
 //Good afternoon, if 12pm to 7pm
 //good night if 7pm till midnight
-// Apply css in it then dynamically change the coior of greeting part only using inline css style.Ex.green , orange, black etc...
+// Apply css in it then dynamically change the color of greeting part only using inline css style.Ex.green , orange, black etc...
+
+let date = new Date();
+date=date.getHours();
+let gretting='';
+
+const cssStyle= {};
+
+if(date >= 1 && date < 12){
+    gretting='Good Morning';
+    cssStyle.color="green";
+}else if(date >=12 && date <19){
+    gretting='Good Afternoon';
+    cssStyle.color="Orange";
+}else{
+    gretting='Good Night';
+    cssStyle.color="Black";
+}
+
+ReactDOM.render(
+    <> <div>
+    <h1>Hello sir, <span style={cssStyle}>{gretting}</span></h1>
+    </div>
+    </>,
+    document.getElementById("root")
+);
