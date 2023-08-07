@@ -217,25 +217,32 @@ import './index.css';
 //     document.getElementById("root")
 // );
 
-const name = "Aditya";
-const img1 = "https://picsum.photos/200/300";
-const img2 = "https://picsum.photos/250/300";
-const img3 = "https://picsum.photos/300/300";
-const img4 = "https://picsum.photos/220/300";
-const img5 = "https://picsum.photos/210/300";
-const img6 = "https://picsum.photos/255/300";
+// const name = "Aditya";
+// const img1 = "https://picsum.photos/200/300";
+// const img2 = "https://picsum.photos/250/300";
+// const img3 = "https://picsum.photos/300/300";
+// const img4 = "https://picsum.photos/220/300";
+// const img5 = "https://picsum.photos/210/300";
+// const img6 = "https://picsum.photos/255/300";
 
-ReactDOM.render(
-    <>
-        <h1 className="heading">{name} Gallery</h1>
-        <div className="imgDiv"><p>
-        <img src={img1} alt="random Images" />
-        <img src={img2} alt="random Images" />
-        <img src={img3} alt="random Images" />  <br />
-        <img src={img4} alt="random Images" />
-        <img src={img5} alt="random Images" />
-        <img src={img6} alt="random Images" /> </p>
-        </div>
-    </>,
-    document.getElementById("root")
-);
+// ReactDOM.render(
+//     <>
+//         <h1 className="heading">{name} Gallery</h1>
+//         <div className="imgDiv"><p>
+//         <img src={img1} alt="random Images" />
+//         <img src={img2} alt="random Images" />
+//         <img src={img3} alt="random Images" />  <br />
+//         <img src={img4} alt="random Images" />
+//         <img src={img5} alt="random Images" />
+//         <img src={img6} alt="random Images" /> </p>
+//         </div>
+//     </>,
+//     document.getElementById("root")
+// );
+
+//challenge 3
+
+//show a heading that say hello sir, Good Morning, if time is between 1 to 11 am.
+//Good afternoon, if 12pm to 7pm
+//good night if 7pm till midnight
+// Apply css in it then dynamically change the coior of greeting part only using inline css style.Ex.green , orange, black etc...
