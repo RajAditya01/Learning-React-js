@@ -276,10 +276,11 @@ import ReactDOM from "react-dom";
 //l-18
 // components
 import Heading from "./Heading";
+import Para from "./Para";
 const element = (
     <>
         <Heading />
-        <p>This is my world</p>
+        <Para />
         <ol>
             <li>Aditya</li>
             <li>Raj</li>
