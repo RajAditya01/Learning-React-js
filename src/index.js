@@ -286,3 +286,33 @@ ReactDOM.render(<Greeting />, document.getElementById("root"));
 //     </>,
 //     document.getElementById("root")
 // );
+
+//challenges l-22
+//calculator
+function add(a, b) {
+    return a + b;
+}
+
+function sub(a, b) {
+    return a - b;
+}
+
+function mult(a, b) {
+    return a * b;
+}
+
+function div(a, b) {
+    return a / b;
+}
+
+ReactDOM.render(
+    <>
+        <ul>
+            <li>Sum of two numbers is {add(40, 4)}</li>
+            <li>Subtraction of two numbers is {sub(30, 3)}</li>
+            <li>Division of two numbers is {div(10, 3)}</li>
+            <li>Multiplication of two numbers is {mult(10, 3)}</li>
+        </ul>
+    </>,
+    document.getElementById("root")
+);
