@@ -275,11 +275,10 @@ import ReactDOM from "react-dom";
 
 //l-18
 // components
-// Assuming you have already included React and ReactDOM libraries
-
+import Heading from "./Heading";
 const element = (
     <>
-        <h1>My Name is Aditya</h1>
+        <Heading />
         <p>This is my world</p>
         <ol>
             <li>Aditya</li>
