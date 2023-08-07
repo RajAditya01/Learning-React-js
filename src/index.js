@@ -277,16 +277,12 @@ import ReactDOM from "react-dom";
 // components
 import Heading from "./Heading";
 import Para from "./Para";
+import Order from "./Order";
 const element = (
     <>
         <Heading />
         <Para />
-        <ol>
-            <li>Aditya</li>
-            <li>Raj</li>
-            <li>Punit</li>
-            <li>Deepak</li>
-        </ol>
+        <Order />
     </>
 );
 
