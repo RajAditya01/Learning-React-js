@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-// import './index.css';
+import './index.css';
 
 // ReactDOM.render('kya dikhana hai', 'kaha dikhana hai', 'call back');
 //ReactDOM.render(<h1>Hello world!</h1>, document.getElementById("root"));
@@ -273,12 +273,16 @@ import ReactDOM from "react-dom";
 //     document.getElementById("root")
 // );
 
+//using components
+import Greeting from "./App2";
+ReactDOM.render(<Greeting />, document.getElementById("root"));
+
 //l-18
 // components
-import App from "./App";
-ReactDOM.render(
-    <>
-    <App />
-    </>,
-    document.getElementById("root")
-);
+// import App from "./App";
+// ReactDOM.render(
+//     <>
+//     <App />
+//     </>,
+//     document.getElementById("root")
+// );
