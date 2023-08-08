@@ -318,16 +318,12 @@ import ReactDOM from "react-dom";
 // );
 
 // components
-import {add, sub, mult, div } from "./Calculator";
-
+import App2 from "./App2";
 
 ReactDOM.render(
     <>
     <ul>
-        <li> {add(40,4)} </li>
-        <li> {sub(40,4)} </li>
-        <li> {mult(40,4)} </li>
-        <li> {div(40,4)} </li>
+        <App2/>
     </ul>
         
     </>,

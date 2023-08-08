@@ -1,4 +1,4 @@
-// import React from "react";
+import React from "react";
 
 // function Greeting() {
 //     let date = new Date();
@@ -25,3 +25,22 @@
 // }
 
 // export default Greeting;
+
+
+//calculator
+import {add, sub, mult, div } from "./Calculator";
+
+function App2() {
+    return (
+        <>
+            <ul>
+                <li> {add(40, 4)} </li>
+                <li> {sub(40, 4)} </li>
+                <li> {mult(40, 4)} </li>
+                <li> {div(40, 4)} </li>
+            </ul>
+        </>
+    );
+}
+
+export default App2;
