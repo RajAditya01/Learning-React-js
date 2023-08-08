@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import './index.css';
+//import './index.css';
 
 // ReactDOM.render('kya dikhana hai', 'kaha dikhana hai', 'call back');
 //ReactDOM.render(<h1>Hello world!</h1>, document.getElementById("root"));
@@ -318,11 +318,18 @@ import './index.css';
 // );
 
 // components
-// import Calculator from "./Calculator"; 
+import {add, sub, mult, div } from "./Calculator";
 
-// ReactDOM.render(
-//   <>
-//     <App2 />
-//   </>,
-//   document.getElementById("root")
-// );
+
+ReactDOM.render(
+    <>
+    <ul>
+        <li> {add(40,4)} </li>
+        <li> {sub(40,4)} </li>
+        <li> {mult(40,4)} </li>
+        <li> {div(40,4)} </li>
+    </ul>
+        
+    </>,
+    document.getElementById("root")
+);
