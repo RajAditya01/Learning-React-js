@@ -318,14 +318,38 @@ import ReactDOM from "react-dom";
 // );
 
 // components
-import App2 from "./App2";
+//import App2 from "./App2";
+
+// ReactDOM.render(
+//     <>
+//     <ul>
+//         <App2/>
+//     </ul>
+        
+//     </>,
+//     document.getElementById("root")
+// );
+
+
+//l-22
+//props in react
+//PROPS STAND FOR PROPERTY
+//props is like a function and  javascript and attribute in html
 
 ReactDOM.render(
     <>
-    <ul>
-        <App2/>
-    </ul>
-        
+    <div className="cards">
+        <div className="card">
+            <img src="" alt="mypic" className="card__img" />  
+            <div className="card__info">
+                <span className="card__category">A Netflix Original Series</span>
+                <h3 className="card__tittle">DARK</h3>
+                <a href="" target="_blank">
+                    <button> Watch Now</button>
+                </a> 
+            </div>     
+        </div>
+    </div>
     </>,
-    document.getElementById("root")
+    document.getElementById('root')
 );
