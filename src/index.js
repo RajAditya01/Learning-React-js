@@ -274,8 +274,8 @@ import './index.css';
 // );
 
 //using components
-import Greeting from "./App2";
-ReactDOM.render(<Greeting />, document.getElementById("root"));
+// import Greeting from "./App2";
+// ReactDOM.render(<Greeting />, document.getElementById("root"));
 
 //l-18
 // components
@@ -288,7 +288,7 @@ ReactDOM.render(<Greeting />, document.getElementById("root"));
 // );
 
 //challenges l-22
-//calculator
+calculator
 function add(a, b) {
     return a + b;
 }
@@ -316,3 +316,13 @@ ReactDOM.render(
     </>,
     document.getElementById("root")
 );
+
+// components
+// import Calculator from "./Calculator"; 
+
+// ReactDOM.render(
+//   <>
+//     <App2 />
+//   </>,
+//   document.getElementById("root")
+// );
