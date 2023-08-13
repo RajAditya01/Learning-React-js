@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import './index.css';
+ import './index.css';
 
 // ReactDOM.render('kya dikhana hai', 'kaha dikhana hai', 'call back');
 //ReactDOM.render(<h1>Hello world!</h1>, document.getElementById("root"));
@@ -340,7 +340,7 @@ ReactDOM.render(
     <>
     <div className="cards">
         <div className="card">
-            <img src="" alt="mypic" className="card__img" />  
+            <img src="http://m.gettywallpapers.com/dark-wallpapers-netflix/" alt="mypic" className="card__img" />  
             <div className="card__info">
                 <span className="card__category">A Netflix Original Series</span>
                 <h3 className="card__tittle">DARK</h3>
