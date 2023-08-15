@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
- import './index.css';
+import './index.css';
 
 // ReactDOM.render('kya dikhana hai', 'kaha dikhana hai', 'call back');
 //ReactDOM.render(<h1>Hello world!</h1>, document.getElementById("root"));
@@ -336,20 +336,31 @@ import ReactDOM from "react-dom";
 //PROPS STAND FOR PROPERTY
 //props is like a function and  javascript and attribute in html
 
-ReactDOM.render(
-    <>
+function Card(){
+    return(    
     <div className="cards">
         <div className="card">
-            <img src="http://m.gettywallpapers.com/dark-wallpapers-netflix/" alt="mypic" className="card__img" />  
+            <img src="" alt="mypic" className="card__img" />  
             <div className="card__info">
                 <span className="card__category">A Netflix Original Series</span>
                 <h3 className="card__tittle">DARK</h3>
-                <a href="" target="_blank">
+                <a href="https://www.netflix.com/watch/80114790?trackId=255824129" target="_blank">
                     <button> Watch Now</button>
                 </a> 
             </div>     
         </div>
     </div>
-    </>,
+    )
+}
+
+ReactDOM.render(
+<>
+<Card/>
+<Card/>
+<Card/>
+<Card/>
+<Card/>
+<Card/>
+</>,
     document.getElementById('root')
 );
