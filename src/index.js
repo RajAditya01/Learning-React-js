@@ -337,17 +337,20 @@ import './index.css';
 //props is like a function and  javascript and attribute in html
 
 import Card from "./Card";
+import Sdata from "./Sdata";
+
 ReactDOM.render(
 <> 
 {/* khud ka custom attribute */}
 
 <h1 className="heading_style">List of top 6 Netflix Series in 2023</h1>
 
+{/* using array  */}
 <Card
-imgsrc="https://w0.peakpx.com/wallpaper/602/919/HD-wallpaper-dark-netflix-serie-dark-netflix-serie.jpg"
-title="A Netflix Original Series"
-sname="DARK"
-link="https://www.netflix.com/watch/80114790?trackId=255824129"
+imgsrc={Sdata[0].imgsrc}
+title={Sdata[0].title}
+sname={Sdata[0].sname}
+link={Sdata[0].link}
 />
 
 <Card
