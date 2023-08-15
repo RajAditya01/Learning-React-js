@@ -336,7 +336,7 @@ import './index.css';
 //PROPS STAND FOR PROPERTY
 //props is like a function and  javascript and attribute in html
 
-import Card from "./card";
+import Card from "./Card";
 ReactDOM.render(
 <> 
 {/* khud ka custom attribute */}
