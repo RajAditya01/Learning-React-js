@@ -336,23 +336,7 @@ import './index.css';
 //PROPS STAND FOR PROPERTY
 //props is like a function and  javascript and attribute in html
 
-function Card(props){
-    return(    
-    <div className="cards">
-        <div className="card">
-            <img src={props.imgsrc} alt="mypic" className="card__img" />  
-            <div className="card__info">
-                <span className="card__category">{props.title}</span>
-                <h3 className="card__tittle">{props.sname} </h3>
-                <a href={props.link} target="_blank">
-                    <button> Watch Now</button>
-                </a> 
-            </div>     
-        </div>
-    </div>
-    )
-}
-
+import Card from "./card";
 ReactDOM.render(
 <> 
 {/* khud ka custom attribute */}
