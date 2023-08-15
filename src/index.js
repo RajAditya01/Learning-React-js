@@ -336,15 +336,15 @@ import './index.css';
 //PROPS STAND FOR PROPERTY
 //props is like a function and  javascript and attribute in html
 
-function Card(){
+function Card(props){
     return(    
     <div className="cards">
         <div className="card">
-            <img src="" alt="mypic" className="card__img" />  
+            <img src={props.imgsrc} alt="mypic" className="card__img" />  
             <div className="card__info">
-                <span className="card__category">A Netflix Original Series</span>
-                <h3 className="card__tittle">DARK</h3>
-                <a href="https://www.netflix.com/watch/80114790?trackId=255824129" target="_blank">
+                <span className="card__category">{props.title}</span>
+                <h3 className="card__tittle">{props.sname} </h3>
+                <a href={props.link} target="_blank">
                     <button> Watch Now</button>
                 </a> 
             </div>     
@@ -354,8 +354,16 @@ function Card(){
 }
 
 ReactDOM.render(
-<>
-<Card/>
+<> 
+{/* khud ka custom attribute */}
+
+<Card
+imgsrc=""
+title="A Netflix Original Series"
+sname="DARK"
+link="https://www.netflix.com/watch/80114790?trackId=255824129"
+/>
+
 <Card/>
 <Card/>
 <Card/>
