@@ -341,6 +341,8 @@ ReactDOM.render(
 <> 
 {/* khud ka custom attribute */}
 
+<h1 className="heading_style">List of top 6 Netflix Series in 2023</h1>
+
 <Card
 imgsrc="https://w0.peakpx.com/wallpaper/602/919/HD-wallpaper-dark-netflix-serie-dark-netflix-serie.jpg"
 title="A Netflix Original Series"

@@ -58,13 +58,13 @@ span{
 
 
 /* 3 */
-/* * {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.heading_style {
+/* .heading_style {
   padding: 30px 0;
   text-align: center;
   font-family: "cursive";
@@ -76,7 +76,31 @@ span{
   background-color: rgb(255, 255, 255);
   color: black;
 
+} */
+.heading_style {
+  padding: 30px 0;
+  text-align: center;
+  font-family: "cursive";
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 700; /* Increase font weight for more impact */
+  font-size: 2rem; /* Increase font size for better visibility */
+  margin-bottom: 40px; /* Slightly increase margin for spacing */
+  background-color: rgb(255, 255, 255);
+  color: #ff5733; /* Use an attractive color (e.g., orange) */
+  border-bottom: 3px solid #ff5733; /* Add a border for emphasis */
+  border-radius: 10px; /* Add rounded corners for a modern look */
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+  transition: color 0.3s, background-color 0.3s, transform 0.3s; /* Add smooth transitions */
 }
+
+/* On hover, slightly scale up the heading and change the background color */
+.heading_style:hover {
+  background-color: #ff5733;
+  color: white;
+  transform: scale(1.05);
+}
+
 
 .heading{
   color: aqua;
@@ -220,11 +244,11 @@ button:hover {
   color: white;
   transition: 0.5s;
 
-} */
+}
 
 
 /* chatgpt css */
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -312,9 +336,6 @@ button {
   color: #868686;
   cursor: pointer;
 }
-
-/* Additional styles for specific elements */
-
 * {
   margin: 0px;
   padding: 0px;
@@ -392,6 +413,4 @@ button:hover {
   background-color: black;
   color: white;
   transition: 0.5s;
-
-}
-
+} */
