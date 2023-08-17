@@ -354,7 +354,7 @@ ReactDOM.render(
 <> 
 {/* khud ka custom attribute */}
 
-<h1 className="heading_style">List of top 6 Netflix Series in 2023</h1>
+<h1 className="heading_style">List of top Netflix Series in 2023</h1>
 
 {/* map */}
 {Sdata.map(ncard)}
