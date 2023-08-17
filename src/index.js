@@ -339,6 +339,16 @@ import './index.css';
 import Card from "./Card";
 import Sdata from "./Sdata";
 
+
+// // Fat arrow function 
+// function myname (vinod){
+//     //Normal fumction
+//     return a+b;
+// }
+
+// const myname = (vinod) => a+b;
+//     //Fat arrow function es-6
+
 function ncard(val){
     return(
         <Card
