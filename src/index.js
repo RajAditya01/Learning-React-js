@@ -339,14 +339,26 @@ import './index.css';
 import Card from "./Card";
 import Sdata from "./Sdata";
 
+function ncard(val){
+    return(
+        <Card
+            imgsrc={val.imgsrc}
+            title={val.title}
+            sname={val.sname}
+            link={val.link}
+        />
+    );
+}
+
 ReactDOM.render(
 <> 
 {/* khud ka custom attribute */}
 
 <h1 className="heading_style">List of top 6 Netflix Series in 2023</h1>
+{Sdata.map(ncard)}
 
 {/* using array  */}
-<Card
+{/* <Card
 imgsrc={Sdata[0].imgsrc}
 title={Sdata[0].title}
 sname={Sdata[0].sname}
@@ -386,7 +398,7 @@ imgsrc="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/thecrown-15
 title="A Netflix Original Series"
 sname="CROWN"
 link="https://www.netflix.com"
-/>
+/> */}
 
 </>,
     document.getElementById('root')
