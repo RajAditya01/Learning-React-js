@@ -338,6 +338,7 @@ import './index.css';
 
 import Card from "./Card";
 import Sdata from "./Sdata";
+import Netflix from "./Amazon";
 
 
 // // Fat arrow function 
@@ -433,3 +434,16 @@ link="https://www.netflix.com"
 </>,
     document.getElementById('root')
 );
+
+
+//Ternary Operator
+// const Favs=()=>{    
+// if(fav==="Netflix"){
+//     return <Netflix/>;
+// }else{
+//     return<Amazon/>;
+// }
+// }
+
+// using Ternary
+// {(fav === "Netflix") ? <Netflix/> : <Amazon/>}
