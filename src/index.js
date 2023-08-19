@@ -20,7 +20,7 @@ import './index.css';
 //         <h1 key="heading">Hello world!</h1>,
 //         <h2 key="subheading">Welcome to my React course</h2>,
 //         <p key="paragraph">I am Aditya Raj</p>
-//     ],
+//    1],
 //     document.getElementById("root")
 // );
 
@@ -134,7 +134,7 @@ import './index.css';
 // // Hello, world!
 
 // //5.Array Mapping:
-// const items = ['Apple', 'Banana', 'Orange'];
+// const items = ['Apple', 'Banana', 'Orange1];
 
 // const itemList = (
 //     <ul>
@@ -349,6 +349,23 @@ import Sdata from "./Sdata";
 // const myname = (vinod) => a+b;
 //     //Fat arrow function es-6
 
+//if else statement
+// const favSeries="Netflix";
+// const favS=()=>{  
+//     if(favSeries==="Netflix") {
+//         return(
+//             <Card
+//             imgsrc={Sdata[1].imgsrc}
+//             title={Sdata[1].title}
+//             sname={Sdata[1].sname}
+//             link={Sdata[1].link}
+//             />
+//         );
+//     }else{
+    
+//     }
+// }
+
 function ncard(val){
     return(
         <Card
@@ -365,16 +382,17 @@ ReactDOM.render(
 {/* khud ka custom attribute */}
 
 <h1 className="heading_style">List of top Netflix Series in 2023</h1>
+<favS/>
 
 {/* map */}
 {Sdata.map(ncard)}
 
 {/* using array  */}
 {/* <Card
-imgsrc={Sdata[0].imgsrc}
-title={Sdata[0].title}
-sname={Sdata[0].sname}
-link={Sdata[0].link}
+imgsrc={Sdata[1].imgsrc}
+title={Sdata[1].title}
+sname={Sdata[1].sname}
+link={Sdata[1].link}
 />
 
 <Card
