@@ -338,8 +338,6 @@ import './index.css';
 
 import Card from "./Card";
 import Sdata from "./Sdata";
-import Netflix from "./Amazon";
-
 
 // // Fat arrow function 
 // function myname (vinod){
